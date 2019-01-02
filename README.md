@@ -1,1 +1,1 @@
-# go-flow-diagram
+# diagram-go-flow
