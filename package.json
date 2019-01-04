@@ -4,14 +4,17 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --port 3001 --open --compress",
+    "start": "webpack-dev-server --mode development --port 3000 --open --compress",
     "dev": "webpack --mode development --progress",
     "build": "webpack --mode production --progress"
   },
   "dependencies": {
     "gojs": "^1.8.35",
+    "material-design-icons": "^3.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
+    "react-dnd": "^7.0.2",
+    "react-dnd-html5-backend": "^7.0.2",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
     "styled-components": "^4.1.3"
